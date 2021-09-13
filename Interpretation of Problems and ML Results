@@ -1,0 +1,13 @@
+Question: Take the time to write down 2 ways you could validate the core business question into a testable hypothesis.
+
+Answer:
+As a data scientist, after I determine the main goal of the business question (which is usually to maximize revenue/ sales, minimize cost or increase customer base), I would identify the major player to the success of the goal and understand the experience in the process and to the success of the goal. Onsite visit may be required to observe and have a genuine understanding of the problem as much as possible. Secondly, I would gather the information from the scenarios and study of the customer(s), study and articulate as scientific thought processes into statements that can be tested.
+
+Question: Our model performed very well (see below), possibly because Dr. Holmes and Dr. Watson are described in very different ways in the stories, but it could be something else. 
+
+Answer:
+The model has performed so well as the F1-score and accuracy is very high. The model is aimed at predicting the number of occurrences of keywords of "sherlock" or "watson" in every sentence of (or corpus) of text. A high precision and recall values of 1 and 0.83 values for keyword watson means that the model is able to accurately determine all labeled sentences correctly as either containing "watson" keyword or not.
+
+Precision is the ratio of the correctly predicted positive observation to the total predicted positive observations (i.e. TP/(TP + FP). While, Recall is the ratio of positive observation to all observation in "same" class (i.e. TP/(TP + TN) or FP/(FP + FN).  F1 Score is the weighted average of precision and recall, given as 2*(Recall * Precision) / (Recall + Precision).
+
+Accuracy is an intuitive performance measure which is simply a ratio of correctly predicted positive observation to total observations. Accuracy is a great measure if dataset is symmetric or even. Accuracy is given as (TP+TN)/ (TP+FP+FN+TN). F1 is usually more useful than accuracy, especially if you have an uneven class distribution. Accuracy works best if false positives and false negatives have similar cost. If the cost of false positives and false negatives are very different, it’s better to look at both Precision and Recall.
